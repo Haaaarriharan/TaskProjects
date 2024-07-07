@@ -1,22 +1,13 @@
 import { Layout } from '@/components/custom/layout'
-import { Button } from '@/components/custom/button'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Search } from '@/components/search'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import ThemeSwitch from '@/components/theme-switch'
-import { TopNav } from '@/components/top-nav'
 import img1 from '../../assets/dashboard/Icon1.svg'
 import img2 from '../../assets/dashboard/Icon2.svg'
 import img3 from '../../assets/dashboard/Icon3.svg'
 import img4 from '../../assets/dashboard/Icon.svg'
 import { UserNav } from '@/components/user-nav'
-import { RecentSales } from './components/recent-sales'
 import Overview from './components/overview'
 import { DataTable } from '../tasks/components/data-table'
 import { columns } from '../tasks/components/columns'

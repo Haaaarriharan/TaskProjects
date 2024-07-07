@@ -1,8 +1,6 @@
-import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
 import img1 from '../../../../assets/slider/imgwatch1.jpg'
-import img2 from '../../../../assets/slider/imgwatch2.jpeg'
 import img3 from '../../../../assets/slider/imgwatch3.jpeg'
 import img4 from '../../../../assets/slider/imgwatch3.jpg'
 
