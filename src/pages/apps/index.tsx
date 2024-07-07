@@ -47,7 +47,7 @@ export default function Apps() {
 
   const categories = [
     { id: 1, name: 'Inbox', icon: <Inbox />, count: 100 },
-    { id: 2, name: 'Starred', icon: <Star />, count: 300 },
+    { id: 2, name: 'Star  red', icon: <Star />, count: 300 },
     { id: 3, name: 'Sent', icon: <Send />, count: 1000 },
     { id: 4, name: 'Draft', icon: <Pencil />, count: 20 },
     { id: 5, name: 'Spam', icon: <ShieldAlert />, count: 30 },
@@ -89,6 +89,7 @@ export default function Apps() {
         style={{
           backgroundColor: '#F5F6FA',
           overflowY: 'scroll',
+          minWidth: '900px',
         }}
       >
         <div>
